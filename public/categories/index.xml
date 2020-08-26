@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Ryan Stokes</title>
+    <link>https://RyanStokes.github.io/categories/</link>
+    <description>Recent content in Categories on Ryan Stokes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://RyanStokes.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>cognitive science</title>
+      <link>https://RyanStokes.github.io/categories/cognitive-science/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://RyanStokes.github.io/categories/cognitive-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paper</title>
+      <link>https://RyanStokes.github.io/categories/paper/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://RyanStokes.github.io/categories/paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data science</title>
+      <link>https://RyanStokes.github.io/categories/data-science/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://RyanStokes.github.io/categories/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistics</title>
+      <link>https://RyanStokes.github.io/categories/statistics/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://RyanStokes.github.io/categories/statistics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Video Game</title>
+      <link>https://RyanStokes.github.io/categories/video-game/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://RyanStokes.github.io/categories/video-game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>poster</title>
+      <link>https://RyanStokes.github.io/categories/poster/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://RyanStokes.github.io/categories/poster/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

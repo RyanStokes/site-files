@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en" data-theme=""><head>
+    <title> Ryan Stokes | Letter Position Encoding </title>
+    <meta charset="utf-8"><meta name="generator" content="Hugo 0.74.3" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="description" content="Data Scientist | Statistician | Cognitive Scientist">
+    
+    <link rel="stylesheet" href="https://RyanStokes.github.io/css/style.min.dd072c41ac1949b575ce38fe74c419627afaaeb5db996b14953adb1c77908c02.css" integrity="sha256-3QcsQawZSbV1zjj&#43;dMQZYnr6rrXbmWsUlTrbHHeQjAI=" crossorigin="anonymous" type="text/css"><link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+    <link rel="shortcut icon" href="https://RyanStokes.github.io/favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://RyanStokes.github.io/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://RyanStokes.github.io/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://RyanStokes.github.io/favicons/favicon-16x16.png">
+    <link rel="canonical" href="https://RyanStokes.github.io/projects/2017-letter-position-encoding/">
+    
+    
+    <script type="text/javascript" src="https://RyanStokes.github.io/js/anatole-header.min.7e2fc0724240b28c6e214687e73a4a6eb6c196bbace546b9dc86e94cca120b5c.js" integrity="sha256-fi/AckJAsoxuIUaH5zpKbrbBlrus5Ua53IbpTMoSC1w=" crossorigin="anonymous"></script>
+    <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://RyanStokes.github.io/images/site-feature-image.png"/>
+
+<meta name="twitter:title" content="Letter Position Encoding"/>
+<meta name="twitter:description" content="Abstract Visual word recognition requires the identification of a word’s component letters as well as their position within a word."/>
+
+</head><body><div class="sidebar animated fadeInDown">
+    <div class="logo-title">
+      <div class="title">
+        <img src="https://RyanStokes.github.io/images/profile.jpg" alt="profile picture">
+        <h3 title=""><a href="/">Ryan Stokes</a></h3>
+        <div class="description">
+          <p>Data Scientist | Statistician | Cognitive Scientist</p>
+        </div>
+      </div>
+    </div>
+    <ul class="social-links">
+        
+        <li>
+        <a href="https://www.linkedin.com/in/ryan-stokes-37a20a157/" rel="me" aria-label="Linkedin">
+          <i class="fa fa-2x fa-linkedin" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="https://github.com/RyanStokes" rel="me" aria-label="GitHub">
+          <i class="fa fa-2x fa-github" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="mailto:RyanStokes@gmail.com" rel="me" aria-label="e-mail">
+          <i class="fa fa-2x fa-envelope" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+    </ul>
+    <div class="footer">
+        <div class="by_farbox">&copy; Ryan Stokes 2020 </div>
+      </div>
+    </div>
+</div><div class="main">
+            <div class="page-top animated fadeInDown">
+    <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false" >
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    <ul class="nav" id="navMenu">
+        
+        
+        
+        <li><a  href="/" title="">Home</a></li>
+        
+        
+        <li><a  href="/projects/" title="">Projects</a></li>
+        
+        
+        <li><a  href="/cv/" title="">CV</a></li>
+        
+        
+        <li class="theme-switch-item">
+        <a class="theme-switch" title="Switch Theme">
+            <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+        </a>
+        </li>
+    </ul>
+</div>
+
+            <div class="autopagerize_page_element">
+                <div class="content">
+<div class="post animated fadeInDown">
+    <div class="post-content">
+
+      <div class="post-title">
+        <h3>Letter Position Encoding
+        </h3>
+        
+        </div>
+
+    
+
+<h2 id="abstract">Abstract</h2>
+
+<p>Visual word recognition requires the identification
+of a word’s component letters as well as their position within a
+word. The position of letters, once thought to be coded to the
+precise location in a word, is now understood to be more flexible.
+Indeed, a wealth of experimental evidence supports a view of
+visual word recognition that is forgiving to local changes in the
+position of letters. We present a model of letter position encoding,
+as an extension of the Overlap model, that treats letters as
+distributions along a normalized retinotopic space. Additionally,
+letters that do not belong in a target word, or are distant from
+the expected location, are modeled to inhibit the activation of the
+target word. This method has not yet been explored in the letter
+position encoding literature, and can help increase the biological
+plausibility of these models. We show that model estimates fit
+well with a database of priming studies used to investigate the
+effects of letter position manipulations on participants’ reaction
+time and accuracy.</p>
+
+<h2 id="findings">Findings</h2>
+
+<p>Our model of letter position encoding is informed by the
+various phenomenon reported by masked priming studies, and
+also constrained by the limitations of biological plausibility.
+Transposition effects, relative position effects, letter inhibition,
+and letter migration effects are each explained by the model
+using a simple network of neurons and two free parameters.
+Transposition effects are explained at the letter layer. Adjacent letters have overlapping letter distributions that maintain
+some level of activation if those letters are transposed. However, distant letter transpositions will have inhibitory effects
+on word activation. This is because letter identification follows
+an activation gradient with the most activation centered around
+the true position of the letter, and inhibitory weights set near
+the tails. The model’s prediction is consistent with behavioral
+studies where transpositions of more than two letter spaces
+have small priming effects on target words [26], [12].
+Words with letters that have been removed (subset) or
+inserted (superset) will still generate reliable priming effects
+[26]. A shared space must then exist between words of
+different lengths for which comparisons can be made. The
+model accomplishes this by mapping every word onto the same
+normalized space, independent of the number of neurons in
+the letter layer. This strategy appears to be effective up to two
+letters of removal or insertion as the model underestimated
+performance of the half word (<sup>123</sup>&frasl;<sub>456</sub>) condition.
+Letter migration effects can be informally evaluated by allowing the network to accept inputs from multiple letters at the
+same position. Two words can then be presented to the network
+at the same time, similar to an experiment where a word is
+presented to either side of the screen. This activates both sets
+of letters at overlapping positions. As expected, the lexical
+units for each of the two words will increase in activation,
+but occasionally, words which contain a combination of letters
+from the first two words will also activate strongly. The model
+is naturally flexible to letter position between words as well,
+eliciting strong activation for stop when presented with step
+and soap together. Currently, the model does well to fit commonly studied
+masked priming effects. However, there are several simplifications that prevent the network from explaining specific
+types of conditions. For instance, the model has nothing to
+say about the initial letter position effect, where the first letter
+will be identified more quickly and accurately than other letters
+during a forced choice task. It is straightforward to include an
+additional parameter to increase activation of the initial letter,
+but this approach seems simplistic and unnatural. Instead,
+a model of attention that is integrated into the network is
+necessary to identify a word shape, and increase activation to
+the appropriate letter positions. This extension would fit more
+accurately with current theories of initial letter position effects
+[18]. Additional improvements, such as phonology, semantics,
+and syllable boundaries can also improve the explanatory
+power of the network and will likely be included in further
+iterations. The current model can most effectively be used as a
+front-end of letter position encoding in more advanced models
+of visual word recognition.</p>
+
+<h2 id="paper">Paper</h2>
+
+<p><a href="/images/Letter Position Encoding/Stokes2017.pdf">Letter Position Encoding in a Neural Framework</a></p>
+
+    </div>
+    <div class="post-footer">
+      <div class="info">
+        
+<span class="separator"><a class="category" href="/categories/cognitive-science/">cognitive science</a></span>
+
+        
+      </div>
+    </div>
+
+    
+</div>
+
+
+                </div>
+            </div>
+        </div>
+</body>
+
+
+
+<script type="text/javascript" src="https://RyanStokes.github.io/js/jquery.min.86b1e8f819ee2d9099a783e50b49dff24282545fc40773861f9126b921532e4c.js" integrity="sha256-hrHo&#43;BnuLZCZp4PlC0nf8kKCVF/EB3OGH5EmuSFTLkw=" crossorigin="anonymous"></script>
+
+
+
+
+<script type="text/javascript" src="https://RyanStokes.github.io/js/bundle.min.0f9c74cb78f13d1f15f33daff4037c70354f98acfbb97a6f61708966675c3cae.js" integrity="sha256-D5x0y3jxPR8V8z2v9AN8cDVPmKz7uXpvYXCJZmdcPK4=" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://RyanStokes.github.io/js/medium-zoom.min.92f21c856129f84aeb719459b3e6ac621a3032fd7b180a18c04e1d12083f8aba.js" integrity="sha256-kvIchWEp&#43;ErrcZRZs&#43;asYhowMv17GAoYwE4dEgg/iro=" crossorigin="anonymous"></script></html></body>
+
+</html>

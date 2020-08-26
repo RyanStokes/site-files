@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>paper on Ryan Stokes</title>
+    <link>https://RyanStokes.github.io/categories/paper/</link>
+    <description>Recent content in paper on Ryan Stokes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://RyanStokes.github.io/categories/paper/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Motor Theory of Speech Perception</title>
+      <link>https://RyanStokes.github.io/projects/2019-the-motor-theory-of-speech-perception/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://RyanStokes.github.io/projects/2019-the-motor-theory-of-speech-perception/</guid>
+      <description>Abstract Recent evidence suggests that the motor system may have a facilitatory role in speech perception during noisy listening conditions.</description>
+    </item>
+    
+    <item>
+      <title>Cognitive modeling of risk</title>
+      <link>https://RyanStokes.github.io/projects/2018-cognitive-modeling-of-risk/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://RyanStokes.github.io/projects/2018-cognitive-modeling-of-risk/</guid>
+      <description>Abstract There are many ways to measure how people manage the risk when they make decisions.</description>
+    </item>
+    
+  </channel>
+</rss>

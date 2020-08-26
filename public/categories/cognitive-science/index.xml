@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cognitive science on Ryan Stokes</title>
+    <link>https://RyanStokes.github.io/categories/cognitive-science/</link>
+    <description>Recent content in cognitive science on Ryan Stokes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://RyanStokes.github.io/categories/cognitive-science/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Motor Theory of Speech Perception</title>
+      <link>https://RyanStokes.github.io/projects/2019-the-motor-theory-of-speech-perception/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://RyanStokes.github.io/projects/2019-the-motor-theory-of-speech-perception/</guid>
+      <description>Abstract Recent evidence suggests that the motor system may have a facilitatory role in speech perception during noisy listening conditions.</description>
+    </item>
+    
+    <item>
+      <title>Letter Position Encoding</title>
+      <link>https://RyanStokes.github.io/projects/2017-letter-position-encoding/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://RyanStokes.github.io/projects/2017-letter-position-encoding/</guid>
+      <description>Abstract Visual word recognition requires the identification of a word’s component letters as well as their position within a word.</description>
+    </item>
+    
+    <item>
+      <title>Phonological and Attentional effects of the First Letter Advantage</title>
+      <link>https://RyanStokes.github.io/projects/2019-phonological-and-attentional-effects/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://RyanStokes.github.io/projects/2019-phonological-and-attentional-effects/</guid>
+      <description>Abstract For all readers, visual word recognition starts with the identification of individual letters within a word.</description>
+    </item>
+    
+    <item>
+      <title>Child Risk Utility Measure (CRUM)</title>
+      <link>https://RyanStokes.github.io/projects/2016-crum/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://RyanStokes.github.io/projects/2016-crum/</guid>
+      <description>Abstract -- -- Children are notoriously fearless; running across slippery grass, eating bugs, and climbing up to the top of trees while their anxious parent yells at them to get down.</description>
+    </item>
+    
+  </channel>
+</rss>

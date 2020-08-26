@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>poster on Ryan Stokes</title>
+    <link>https://RyanStokes.github.io/categories/poster/</link>
+    <description>Recent content in poster on Ryan Stokes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://RyanStokes.github.io/categories/poster/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Predict It analysis</title>
+      <link>https://RyanStokes.github.io/projects/2017-predictit/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://RyanStokes.github.io/projects/2017-predictit/</guid>
+      <description>Abstract Prediction markets are a relatively new tool for forecasting the outcomes of paramount events such as political elections or movements in financial markets.</description>
+    </item>
+    
+    <item>
+      <title>Child Risk Utility Measure (CRUM)</title>
+      <link>https://RyanStokes.github.io/projects/2016-crum/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://RyanStokes.github.io/projects/2016-crum/</guid>
+      <description>Abstract -- -- Children are notoriously fearless; running across slippery grass, eating bugs, and climbing up to the top of trees while their anxious parent yells at them to get down.</description>
+    </item>
+    
+  </channel>
+</rss>
